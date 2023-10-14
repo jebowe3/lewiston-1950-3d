@@ -42,7 +42,7 @@
           },
           terrainSource: {
             type: "raster-dem",
-            url: "pmtiles://data/lewiston-dsm.pmtiles",
+            url: "pmtiles://data/lewiston.pmtiles",
             tileSize: 256,
           },
 /*
@@ -94,7 +94,7 @@
     map.addControl(
       new maplibregl.TerrainControl({
         source: "terrainSource",
-        exaggeration: 1.5,
+        exaggeration: 2,
       })
     );
 
